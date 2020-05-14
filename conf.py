@@ -15,7 +15,7 @@ template = {
 }
 enable_jsdelivr = {
     "enabled": False,
-    "repo": ""
+    "repo": "Sylvanasi/Sylvanasi.github.io@source"
 }
 
 # 站点设置
