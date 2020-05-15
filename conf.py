@@ -76,17 +76,17 @@ social_links = [
     }
 ]
 '''
-head_addon = '<meta http-equiv="Content-Type" content="text/html; charset=UTF-8" />   
+head_addon = r'''<meta http-equiv="Content-Type" content="text/html; charset=UTF-8" />   
     <link rel="stylesheet" type="text/css" href="assets/waifu.css"/>
-    <script src="https://cdn.bootcss.com/jquery/3.2.1/jquery.min.js"></script>'
-r'''
+    <script src="https://cdn.bootcss.com/jquery/3.2.1/jquery.min.js"></script>'''
+'''
 <meta http-equiv="x-dns-prefetch-control" content="on">
 <link rel="dns-prefetch" href="//cdn.jsdelivr.net" />
 '''
 
 footer_addon = ''
 
-body_addon = '<div class="waifu">
+body_addon = r'''<div class="waifu">
         <div class="waifu-tips"></div>
         <canvas id="live2d" width="280" height="250" class="live2d"></canvas>
         <div class="waifu-tool">
@@ -99,4 +99,4 @@ body_addon = '<div class="waifu">
         
     <script src="assets/waifu-tips.js"></script>
     <script src="assets/live2d.js"></script>
-    <script type="text/javascript">initModel("assets/")</script>'
+    <script type="text/javascript">initModel("assets/")</script>'''
