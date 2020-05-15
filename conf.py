@@ -9,9 +9,10 @@ build_dir = "../dist/"
 index_page_size = 10
 archives_page_size = 20
 template = {
-    "name": "Galileo",
-    "type": "local",
-    "path": "../Galileo"
+    "name": "Kepler",
+    "type": "git",
+    "url": "https://github.com/AlanDecode/Maverick-Theme-Kepler.git",
+    "branch": "latest"
 }
 enable_jsdelivr = {
     "enabled": True,
@@ -76,27 +77,12 @@ social_links = [
     }
 ]
 '''
-head_addon = r'''<meta http-equiv="Content-Type" content="text/html; charset=UTF-8" />   
-    <link rel="stylesheet" type="text/css" href="assets/waifu.css"/>
-    <script src="https://cdn.bootcss.com/jquery/3.2.1/jquery.min.js"></script>'''
-'''
+head_addon =  
+r'''
 <meta http-equiv="x-dns-prefetch-control" content="on">
 <link rel="dns-prefetch" href="//cdn.jsdelivr.net" />
 '''
 
 footer_addon = ''
 
-body_addon = r'''<div class="waifu">
-        <div class="waifu-tips"></div>
-        <canvas id="live2d" width="280" height="250" class="live2d"></canvas>
-        <div class="waifu-tool">
-            <span class="fui-eye"></span>
-            <span class="fui-user"></span>
-            <span class="fui-photo"></span>
-            <span class="fui-cross"></span>
-        </div>
-    </div>
-        
-    <script src="assets/waifu-tips.js"></script>
-    <script src="assets/live2d.js"></script>
-    <script type="text/javascript">initModel("assets/")</script>'''
+body_addon =''
