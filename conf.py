@@ -77,7 +77,7 @@ social_links = [
     }
 ]
 '''
-head_addon =  
+head_addon = '' 
 r'''
 <meta http-equiv="x-dns-prefetch-control" content="on">
 <link rel="dns-prefetch" href="//cdn.jsdelivr.net" />
