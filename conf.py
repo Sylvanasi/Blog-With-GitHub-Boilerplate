@@ -27,7 +27,7 @@ author = "Sylvanasi"
 email = "393059695@qq.com"
 author_homepage = "https://Sylvanasi.github.io"
 description = "命数如织,当为磐石。"
-key_words = ['Maverick', '熊猫小A', 'Galileo', 'blog']
+#key_words = ['Maverick', '熊猫小A', 'Galileo', 'blog']
 language = 'zh-CN'
 '''external_links = [
     {
@@ -85,4 +85,4 @@ r'''
 
 footer_addon = ''
 
-body_addon =''
+body_addon ='命数如织,当为磐石。'
