@@ -28,7 +28,7 @@ author_homepage = "https://Sylvanasi.github.io"
 description = "命数如织,当为磐石。"
 key_words = ['Maverick', '熊猫小A', 'Galileo', 'blog']
 language = 'zh-CN'
-external_links = [
+'''external_links = [
     {
         "name": "Maverick",
         "url": "https://github.com/AlanDecode/Maverick",
@@ -39,7 +39,7 @@ external_links = [
         "url": "https://www.imalan.cn",
         "brief": "熊猫小A的主页。"
     }
-]
+]'''
 nav = [
     {
         "name": "首页",
@@ -57,7 +57,7 @@ nav = [
         "target": "_self"
     }
 ]
-
+'''
 social_links = [
     {
         "name": "Twitter",
@@ -75,12 +75,28 @@ social_links = [
         "icon": "gi gi-weibo"
     }
 ]
-
-head_addon = r'''
+'''
+head_addon = '<meta http-equiv="Content-Type" content="text/html; charset=UTF-8" />   
+    <link rel="stylesheet" type="text/css" href="assets/waifu.css"/>
+    <script src="https://cdn.bootcss.com/jquery/3.2.1/jquery.min.js"></script>'
+r'''
 <meta http-equiv="x-dns-prefetch-control" content="on">
 <link rel="dns-prefetch" href="//cdn.jsdelivr.net" />
 '''
 
 footer_addon = ''
 
-body_addon = ''
+body_addon = '<div class="waifu">
+        <div class="waifu-tips"></div>
+        <canvas id="live2d" width="280" height="250" class="live2d"></canvas>
+        <div class="waifu-tool">
+            <span class="fui-eye"></span>
+            <span class="fui-user"></span>
+            <span class="fui-photo"></span>
+            <span class="fui-cross"></span>
+        </div>
+    </div>
+        
+    <script src="assets/waifu-tips.js"></script>
+    <script src="assets/live2d.js"></script>
+    <script type="text/javascript">initModel("assets/")</script>'
